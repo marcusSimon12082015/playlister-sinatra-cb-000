@@ -1,0 +1,14 @@
+rake aborted!
+ActiveRecord::AdapterNotSpecified: 'development' database is not configured. Available: []
+/usr/local/rvm/gems/ruby-2.3.1/gems/activerecord-4.2.6/lib/active_record/connection_adapters/connection_specification.rb:248:in `resolve_symbol_connection'
+/usr/local/rvm/gems/ruby-2.3.1/gems/activerecord-4.2.6/lib/active_record/connection_adapters/connection_specification.rb:211:in `resolve_connection'
+/usr/local/rvm/gems/ruby-2.3.1/gems/activerecord-4.2.6/lib/active_record/connection_adapters/connection_specification.rb:139:in `resolve'
+/usr/local/rvm/gems/ruby-2.3.1/gems/activerecord-4.2.6/lib/active_record/connection_adapters/connection_specification.rb:169:in `spec'
+/usr/local/rvm/gems/ruby-2.3.1/gems/activerecord-4.2.6/lib/active_record/connection_handling.rb:50:in `establish_connection'
+/usr/local/rvm/gems/ruby-2.3.1/gems/activerecord-4.2.6/lib/active_record/tasks/database_tasks.rb:109:in `create_current'
+/usr/local/rvm/gems/ruby-2.3.1/gems/activerecord-4.2.6/lib/active_record/railties/databases.rake:17:in `block (2 levels) in <top (required)>'
+/usr/local/rvm/gems/ruby-2.3.1/gems/activerecord-4.2.6/lib/active_record/railties/databases.rake:142:in `block (2 levels) in <top (required)>'
+/usr/local/rvm/gems/ruby-2.3.1/bin/ruby_executable_hooks:15:in `eval'
+/usr/local/rvm/gems/ruby-2.3.1/bin/ruby_executable_hooks:15:in `<main>'
+Tasks: TOP => db:setup => db:schema:load_if_ruby => db:create
+(See full trace by running task with --trace)
